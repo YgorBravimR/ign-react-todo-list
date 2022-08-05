@@ -1,0 +1,35 @@
+header.header {
+  background-color: var(--gray-700);
+  height: 12.5rem;
+  color: var(--blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header span {
+  color: var(--blue);
+  font-size: 1.85rem;
+  font-weight: 700;
+}
+
+.do {
+  color: var(--purpleDark);
+}
+
+.bravo {
+  font-size: 1.85rem;
+  font-weight: 500;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.bravo:hover {
+  color: var(--danger);
+}
+
+img {
+  display: block;
+  margin-right: .5rem;
+}
+
