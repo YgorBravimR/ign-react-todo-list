@@ -31,19 +31,24 @@
 }
 
 .containerAddTask button[type=submit] {
-  align-items: center;
   background-color: var(--blueDark);
+  color: var(--gray-100);
   border-radius: 8px;
   border: 0;
-  color: var(--gray-100);
-  cursor: pointer;
-  display: flex;
   font-size: 0.875rem;
   font-weight: 700;
-  gap: .625rem;
   line-height: 1.225rem;
   padding: 1rem 1.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+  cursor: pointer;
   transition: background-color 120ms;
+}
+
+button > img {
+  margin:0;
 }
 
 .containerAddTask button[type=submit]:hover {
